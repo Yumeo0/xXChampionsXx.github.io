@@ -1,20 +1,4 @@
 @charset "utf-8";
-.content {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 10px;
-}
-
-.picture{
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
 @font-face {
     font-family: 'Balsamiq Sans';
     src: url('Content/Fonts/BalsamiqSans-Bold.ttf') format('truetype');

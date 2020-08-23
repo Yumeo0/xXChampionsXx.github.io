@@ -1,0 +1,71 @@
+@charset "utf-8";
+body{
+	background-color:lightgray;
+	overflow:hidden;
+	font-size:100%;
+	margin:0em;
+	padding:0em;
+}
+h1{
+	font-size:2.3em;
+	line-height: 0.3em;
+	font-family: 'Balsamiq Sans';
+	font-weight: normal;
+}
+h2{
+	font-size:1.3em;
+	line-height: 0.6em;
+	font-family: 'Balsamiq Sans';
+	font-weight: normal;
+}
+p{
+	font-size:1em;
+	line-height: 0.6em;
+	font-family: 'Balsamiq Sans';
+	font-weight: normal;
+}
+.contentBottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding-bottom: 0.2em;
+  padding-left: 1em;
+}
+.contentTop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 8%;
+  padding-top:0.1em; 
+  padding-left:0.4em; 
+}
+
+img { 
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.centerImage
+{
+ text-align:center;
+ display:block;
+}
+
+@font-face {
+    font-family: 'Balsamiq Sans';
+    src: url('Content/Fonts/BalsamiqSans-Bold.ttf') format('truetype');
+	font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Balsamiq Sans';
+    src: url('Content/Fonts/BalsamiqSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
