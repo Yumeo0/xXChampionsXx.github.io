@@ -6,6 +6,7 @@ body{
 	margin:0em;
 	padding:0em;
 }
+/*Schriften*/
 h1{
 	font-size:2.3em;
 	line-height: 0.3em;
@@ -18,12 +19,23 @@ h2{
 	font-family: 'Balsamiq Sans';
 	font-weight: normal;
 }
+a{
+	font-size:1.3em;
+	line-height: 0.8em;
+	font-family: 'Balsamiq Sans';
+	font-weight: normal;
+	color: white;
+	padding-left: 425px;
+}
 p{
 	font-size:1em;
 	line-height: 0.6em;
 	font-family: 'Balsamiq Sans';
 	font-weight: normal;
 }
+/*Schriften Ende*/
+
+/*Content*/
 .contentBottom {
   position: fixed;
   bottom: 0;
@@ -36,26 +48,24 @@ p{
 }
 .contentTop {
   position: fixed;
-  top: 0;
-  left: 0;
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-bottom: 10px;
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
-  width: 8%;
-  padding-top:0.1em; 
-  padding-left:0.4em; 
+  width:100%;
+}
+/*Content Ende*/
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%)
 }
 
-img { 
-    max-width: 100%;
-    vertical-align: middle;
-}
-
-.centerImage
-{
- text-align:center;
- display:block;
-}
-
+/*Fonts*/
 @font-face {
     font-family: 'Balsamiq Sans';
     src: url('Content/Fonts/BalsamiqSans-Bold.ttf') format('truetype');
@@ -69,3 +79,4 @@ img {
     font-weight: normal;
     font-style: normal;
 }
+/*Fonts Ende*/
