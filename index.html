@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body style="background-image:url(Content/Bilder/StartseitenBild.png); background-position: top, center">
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Startseite</a>
+  <a href="minecraft.html">Minecraft Server</a>
+  <a href="discord.html">Discord Bot</a>
+  <a href="about.html">Über Uns</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px; color: aliceblue">
+  <h1>Willkommen bei Champignons Netzwerk</h1>
+  <h2>Hier zeigen wir Infos und den Fortschritt von unserem Discord Bot/Minecraft Server.</h2>
+</div>
 	
-<body>
-	<div style="text-align: center">
-		<img src="Content/Bilder/StartseitenBild.png" width="1920" height="1057" alt=""/>
-	</div>
-	
-	<div class="contentTop">
-		<a href="index.html" style="color:seagreen">STARTSEITE</a>
-		<a href="minecraft.html">MINECRAFT SERVER</a>
-		<a href="discord.html">DISCORD BOT</a>
-		<a href="about.html">ÜBER UNS</a>
-	</div>
-	
-	<div class="contentBottom">
-		<h1>Willkommen bei Champignons Netzwerk</h1>
-		<h2>Hier zeigen wir Infos und den Fortschritt von unserem Discord Bot/Minecraft Server.</h2>
-	</div>
-	
-	</body>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
 </html>
